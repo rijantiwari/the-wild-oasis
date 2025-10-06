@@ -1,7 +1,6 @@
-import { useQuery } from "@tanstack/react-query";
 import styled from "styled-components";
 import CabinRow from "./CabinRow";
-import { getCabins } from "../../services/apiCabins";
+
 import Spinner from "../../ui/Spinner";
 import { useCabins } from "./UseCabins";
 
